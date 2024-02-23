@@ -9,7 +9,7 @@ This repository contains permission IDs to grant scoped permissions through the 
 | 22-24          | [`nana-721-hook`](https://github.com/Bananapus/nana-721-hook)               |
 | 25-26          | [`nana-buyback-hook`](https://github.com/Bananapus/nana-buyback-hook)       |
 | 27-28          | [`nana-swap-terminal`](https://github.com/Bananapus/nana-swap-terminal)     |
-| 29             | [`nana-suckers`](https://github.com/Bananapus/nana-suckers)                 |
+| 29-30          | [`nana-suckers`](https://github.com/Bananapus/nana-suckers)                 |
 
 _If you're having trouble understanding this contract, take a look at the [core protocol contracts](https://github.com/Bananapus/nana-core) and the [documentation](https://docs.juicebox.money/) first. If you have questions, reach out on [Discord](https://discord.com/invite/ErQYmth4dS)._
 
