@@ -4,7 +4,7 @@ This repository contains permission IDs to grant scoped permissions through the 
 
 | Permission IDs | Repository                                                                  |
 | -------------- | --------------------------------------------------------------------------- |
-| 1-20           | [`nana-core`](https://github.com/Bananapus/nana-core/                       |
+| 1-20           | [`nana-core`](https://github.com/Bananapus/nana-core/)                       |
 | 21             | [`nana-project-handles`](https://github.com/Bananapus/nana-project-handles) |
 | 22-24          | [`nana-721-hook`](https://github.com/Bananapus/nana-721-hook)               |
 | 25-26          | [`nana-buyback-hook`](https://github.com/Bananapus/nana-buyback-hook)       |
