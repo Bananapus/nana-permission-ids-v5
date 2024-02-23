@@ -27,15 +27,15 @@ library JBPermissionIds {
     // nana-project-handles
     uint256 internal constant SET_ENS_NAME_FOR = 21;
     // nana-721-hook
-    uint256 internal constant ADJUST_TIERS = 22;
-    uint256 internal constant UPDATE_METADATA = 23;
-    uint256 internal constant MINT = 24;
+    uint256 internal constant ADJUST_721_TIERS = 22;
+    uint256 internal constant UPDATE_721_METADATA = 23;
+    uint256 internal constant MINT_721 = 24;
     // nana-buyback-hook
-    uint256 internal constant SET_POOL_PARAMS = 25;
-    uint256 internal constant CHANGE_POOL = 26;
+    uint256 internal constant SET_BUYBACK_POOL_PARAMS = 25;
+    uint256 internal constant CHANGE_BUYBACK_POOL = 26;
     // nana-swap-terminal
-    uint256 internal constant MODIFY_DEFAULT_POOL = 27;
-    uint256 internal constant MODIFY_TWAP_PARAMS = 28;
+    uint256 internal constant MODIFY_DEFAULT_SWAP_TERMINAL_POOL = 27;
+    uint256 internal constant MODIFY_SWAP_TERMINAL_TWAP_PARAMS = 28;
     // nana-suckers
-    uint256 internal constant MAP_TOKEN = 29;
+    uint256 internal constant MAP_SUCKER_TOKEN = 29;
 }
