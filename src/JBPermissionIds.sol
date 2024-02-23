@@ -38,4 +38,5 @@ library JBPermissionIds {
     uint256 internal constant MODIFY_SWAP_TERMINAL_TWAP_PARAMS = 28;
     // nana-suckers
     uint256 internal constant MAP_SUCKER_TOKEN = 29;
+    uint256 internal constant DEPLOY_SUCKERS_PERMISSION_ID = 30;
 }
