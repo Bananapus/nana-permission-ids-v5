@@ -20,13 +20,15 @@ _If you're having trouble understanding this contract, take a look at the [core 
 
 ## Install
 
-For projects using `npm` (recommended):
+How to install `nana-permission-ids` in another project.
+
+For projects using `npm` to manage dependencies (recommended):
 
 ```bash
 npm install @bananapus/permission-ids
 ```
 
-For projects using `forge` (not recommended):
+For projects using `forge` to manage dependencies (not recommended):
 
 ```bash
 forge install Bananapus/nana-permission-ids
