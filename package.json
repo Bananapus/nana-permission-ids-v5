@@ -5,5 +5,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Bananapus/nana-permission-ids.git"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   }
 }
