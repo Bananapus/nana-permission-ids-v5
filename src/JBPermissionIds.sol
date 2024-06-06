@@ -30,25 +30,22 @@ library JBPermissionIds {
     uint256 internal constant ADD_ACCOUNTING_CONTEXTS = 19; // Permission to call
         // `JBMultiTerminal.addAccountingContextsFor`.
 
-    /* Used by `nana-project-handles`: https://github.com/Bananapus/nana-project-handles */
-    uint256 internal constant SET_ENS_NAME = 20; // Permission to call `JBProjectHandles.setEnsNamePartsFor`.
-
     /* Used by `nana-721-hook`: https://github.com/Bananapus/nana-721-hook */
-    uint256 internal constant ADJUST_721_TIERS = 21; // Permission to call `JB721TiersHook.adjustTiers`.
-    uint256 internal constant SET_721_METADATA = 22; // Permission to call `JB721TiersHook.setMetadata`.
-    uint256 internal constant MINT_721 = 23; // Permission to call `JB721TiersHook.mintFor`.
+    uint256 internal constant ADJUST_721_TIERS = 20; // Permission to call `JB721TiersHook.adjustTiers`.
+    uint256 internal constant SET_721_METADATA = 21; // Permission to call `JB721TiersHook.setMetadata`.
+    uint256 internal constant MINT_721 = 22; // Permission to call `JB721TiersHook.mintFor`.
 
     /* Used by `nana-buyback-hook`: https://github.com/Bananapus/nana-buyback-hook */
-    uint256 internal constant SET_BUYBACK_TWAP = 24; // Permission to call `JBBuybackHook.setTwapWindowOf` and
+    uint256 internal constant SET_BUYBACK_TWAP = 23; // Permission to call `JBBuybackHook.setTwapWindowOf` and
         // `JBBuybackHook.setTwapSlippageToleranceOf`.
-    uint256 internal constant SET_BUYBACK_POOL = 25; // Permission to call `JBBuybackHook.setPoolFor`.
+    uint256 internal constant SET_BUYBACK_POOL = 24; // Permission to call `JBBuybackHook.setPoolFor`.
 
     /* Used by `nana-swap-terminal`: https://github.com/Bananapus/nana-swap-terminal */
-    uint256 internal constant ADD_SWAP_TERMINAL_POOL = 26; // Permission to call `JBSwapTerminal.addDefaultPool`.
-    uint256 internal constant ADD_SWAP_TERMINAL_TWAP_PARAMS = 27; // Permission to call
+    uint256 internal constant ADD_SWAP_TERMINAL_POOL = 25; // Permission to call `JBSwapTerminal.addDefaultPool`.
+    uint256 internal constant ADD_SWAP_TERMINAL_TWAP_PARAMS = 26; // Permission to call
         // `JBSwapTerminal.addTwapParamsFor`.
 
     /* Used by `nana-suckers`: https://github.com/Bananapus/nana-suckers */
-    uint256 internal constant MAP_SUCKER_TOKEN = 28; // Permission to call `BPSucker.mapToken`.
-    uint256 internal constant DEPLOY_SUCKERS = 29; // Permission to call `BPSuckerRegistry.deploySuckersFor`.
+    uint256 internal constant MAP_SUCKER_TOKEN = 27; // Permission to call `BPSucker.mapToken`.
+    uint256 internal constant DEPLOY_SUCKERS = 28; // Permission to call `BPSuckerRegistry.deploySuckersFor`.
 }
