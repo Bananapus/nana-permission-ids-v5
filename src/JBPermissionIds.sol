@@ -1,7 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-/// @notice Permission IDs for `JBPermissions`, used throughout the Bananapus ecosystem. See [`JBPermissions`](https://github.com/Bananapus/nana-core/blob/main/src/JBPermissions.sol)
+/// @notice Permission IDs for `JBPermissions`, used throughout the Bananapus ecosystem. See
+/// [`JBPermissions`](https://github.com/Bananapus/nana-core/blob/main/src/JBPermissions.sol)
 /// @dev `JBPermissions` allows one address to grant another address permission to call functions in Juicebox contracts
 /// on their behalf. Each ID in `JBPermissionIds` grants access to a specific set of these functions.
 library JBPermissionIds {
