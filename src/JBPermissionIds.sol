@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 /// @notice Permission IDs for `JBPermissions`, used throughout the Bananapus ecosystem. See
-/// https://github.com/Bananapus/nana-core/blob/main/src/JBPermissions.sol
+/// [`JBPermissions`](https://github.com/Bananapus/nana-core/blob/main/src/JBPermissions.sol)
 /// @dev `JBPermissions` allows one address to grant another address permission to call functions in Juicebox contracts
 /// on their behalf. Each ID in `JBPermissionIds` grants access to a specific set of these functions.
 library JBPermissionIds {
@@ -23,6 +23,7 @@ library JBPermissionIds {
     uint256 internal constant TRANSFER_CREDITS = 12; // Permission to call `JBController.transferCreditsFrom`.
     uint256 internal constant SET_CONTROLLER = 13; // Permission to call `JBDirectory.setControllerOf`.
     uint256 internal constant SET_TERMINALS = 14; // Permission to call `JBDirectory.setTerminalsOf`.
+    // Be careful - `SET_TERMINALS` can be used to remove the primary terminal.
     uint256 internal constant SET_PRIMARY_TERMINAL = 15; // Permission to call `JBDirectory.setPrimaryTerminalOf`.
     uint256 internal constant USE_ALLOWANCE = 16; // Permission to call `JBMultiTerminal.useAllowanceOf`.
     uint256 internal constant SET_SPLIT_GROUPS = 17; // Permission to call `JBController.setSplitGroupsOf`.
