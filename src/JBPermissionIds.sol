@@ -14,7 +14,7 @@ library JBPermissionIds {
     uint256 internal constant REDEEM_TOKENS = 3; // Permission to call `JBMultiTerminal.redeemTokensOf`.
     uint256 internal constant SEND_PAYOUTS = 4; // Permission to call `JBMultiTerminal.sendPayoutsOf`.
     uint256 internal constant MIGRATE_TERMINAL = 5; // Permission to call `JBMultiTerminal.migrateBalanceOf`.
-    uint256 internal constant SET_PROJECT_METADATA = 6; // Permission to call `JBController.setUriOf`.
+    uint256 internal constant SET_PROJECT_URI = 6; // Permission to call `JBController.setUriOf`.
     uint256 internal constant DEPLOY_ERC20 = 7; // Permission to call `JBController.deployERC20For`.
     uint256 internal constant SET_TOKEN = 8; // Permission to call `JBController.setTokenFor`.
     uint256 internal constant MINT_TOKENS = 9; // Permission to call `JBController.mintTokensOf`.
