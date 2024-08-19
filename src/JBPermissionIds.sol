@@ -35,7 +35,7 @@ library JBPermissionIds {
     uint8 internal constant ADJUST_721_TIERS = 20; // Permission to call `JB721TiersHook.adjustTiers`.
     uint8 internal constant SET_721_METADATA = 21; // Permission to call `JB721TiersHook.setMetadata`.
     uint8 internal constant MINT_721 = 22; // Permission to call `JB721TiersHook.mintFor`.
-    uint8 internal constant SET_721_DISCOUNT = 23; // Permission to call `JB721TiersHook.setDiscountFor`.
+    uint8 internal constant SET_721_DISCOUNT_PERCENT = 23; // Permission to call `JB721TiersHook.setDiscountPercentOf`.
 
     /* Used by `nana-buyback-hook`: https://github.com/Bananapus/nana-buyback-hook */
     uint8 internal constant SET_BUYBACK_TWAP = 24; // Permission to call `JBBuybackHook.setTwapWindowOf` and
