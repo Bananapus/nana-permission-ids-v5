@@ -35,18 +35,19 @@ library JBPermissionIds {
     uint8 internal constant ADJUST_721_TIERS = 20; // Permission to call `JB721TiersHook.adjustTiers`.
     uint8 internal constant SET_721_METADATA = 21; // Permission to call `JB721TiersHook.setMetadata`.
     uint8 internal constant MINT_721 = 22; // Permission to call `JB721TiersHook.mintFor`.
+    uint8 internal constant SET_721_DISCOUNT = 23; // Permission to call `JB721TiersHook.setDiscountFor`.
 
     /* Used by `nana-buyback-hook`: https://github.com/Bananapus/nana-buyback-hook */
-    uint8 internal constant SET_BUYBACK_TWAP = 23; // Permission to call `JBBuybackHook.setTwapWindowOf` and
+    uint8 internal constant SET_BUYBACK_TWAP = 24; // Permission to call `JBBuybackHook.setTwapWindowOf` and
         // `JBBuybackHook.setTwapSlippageToleranceOf`.
-    uint8 internal constant SET_BUYBACK_POOL = 24; // Permission to call `JBBuybackHook.setPoolFor`.
+    uint8 internal constant SET_BUYBACK_POOL = 25; // Permission to call `JBBuybackHook.setPoolFor`.
 
     /* Used by `nana-swap-terminal`: https://github.com/Bananapus/nana-swap-terminal */
-    uint8 internal constant ADD_SWAP_TERMINAL_POOL = 25; // Permission to call `JBSwapTerminal.addDefaultPool`.
-    uint8 internal constant ADD_SWAP_TERMINAL_TWAP_PARAMS = 26; // Permission to call
+    uint8 internal constant ADD_SWAP_TERMINAL_POOL = 26; // Permission to call `JBSwapTerminal.addDefaultPool`.
+    uint8 internal constant ADD_SWAP_TERMINAL_TWAP_PARAMS = 27; // Permission to call
         // `JBSwapTerminal.addTwapParamsFor`.
 
     /* Used by `nana-suckers`: https://github.com/Bananapus/nana-suckers */
-    uint8 internal constant MAP_SUCKER_TOKEN = 27; // Permission to call `BPSucker.mapToken`.
-    uint8 internal constant DEPLOY_SUCKERS = 28; // Permission to call `BPSuckerRegistry.deploySuckersFor`.
+    uint8 internal constant MAP_SUCKER_TOKEN = 28; // Permission to call `BPSucker.mapToken`.
+    uint8 internal constant DEPLOY_SUCKERS = 29; // Permission to call `BPSuckerRegistry.deploySuckersFor`.
 }
