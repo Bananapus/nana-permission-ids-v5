@@ -50,5 +50,5 @@ library JBPermissionIds {
     /* Used by `nana-suckers`: https://github.com/Bananapus/nana-suckers */
     uint8 internal constant MAP_SUCKER_TOKEN = 28; // Permission to call `BPSucker.mapToken`.
     uint8 internal constant DEPLOY_SUCKERS = 29; // Permission to call `BPSuckerRegistry.deploySuckersFor`.
-    uint8 internal constant ENABLE_EMERGENCY_HATCH = 30; // Permission to call `BPSucker.enableEmergencyHatchForTokens`.
+    uint8 internal constant ENABLE_EMERGENCY_HATCH = 30; // Permission to call `BPSucker.enableEmergencyHatchFor`.
 }
