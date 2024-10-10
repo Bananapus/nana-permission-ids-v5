@@ -88,10 +88,10 @@ For example, if `alice.eth` owns project ID #5, she can queue new rulesets for t
 | -------------- | --------------------------------------------------------------------------- |
 | 1              | `ROOT` (all Juicebox contracts)                                             |
 | 2-19           | [`nana-core`](https://github.com/Bananapus/nana-core/)                      |
-| 20-22          | [`nana-721-hook`](https://github.com/Bananapus/nana-721-hook)               |
-| 23-24          | [`nana-buyback-hook`](https://github.com/Bananapus/nana-buyback-hook)       |
-| 25-26          | [`nana-swap-terminal`](https://github.com/Bananapus/nana-swap-terminal)     |
-| 27-28          | [`nana-suckers`](https://github.com/Bananapus/nana-suckers)                 |
+| 20-23          | [`nana-721-hook`](https://github.com/Bananapus/nana-721-hook)               |
+| 24-25          | [`nana-buyback-hook`](https://github.com/Bananapus/nana-buyback-hook)       |
+| 26-27          | [`nana-swap-terminal`](https://github.com/Bananapus/nana-swap-terminal)     |
+| 28-30          | [`nana-suckers`](https://github.com/Bananapus/nana-suckers)                 |
 
 _If you're having trouble understanding this contract, take a look at the [core protocol contracts](https://github.com/Bananapus/nana-core) and the [documentation](https://docs.juicebox.money/) first. If you have questions, reach out on [Discord](https://discord.com/invite/ErQYmth4dS)._
 
