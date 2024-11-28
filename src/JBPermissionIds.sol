@@ -11,7 +11,7 @@ library JBPermissionIds {
     /* Used by `nana-core`: https://github.com/Bananapus/nana-core */
     uint8 internal constant QUEUE_RULESETS = 2; // Permission to call `JBController.queueRulesetsOf` and
         // `JBController.launchRulesetsFor`.
-    uint8 internal constant REDEEM_TOKENS = 3; // Permission to call `JBMultiTerminal.redeemTokensOf`.
+    uint8 internal constant CASH_OUT_TOKENS = 3; // Permission to call `JBMultiTerminal.cashOutTokensOf`.
     uint8 internal constant SEND_PAYOUTS = 4; // Permission to call `JBMultiTerminal.sendPayoutsOf`.
     uint8 internal constant MIGRATE_TERMINAL = 5; // Permission to call `JBMultiTerminal.migrateBalanceOf`.
     uint8 internal constant SET_PROJECT_URI = 6; // Permission to call `JBController.setUriOf`.
@@ -50,5 +50,6 @@ library JBPermissionIds {
     /* Used by `nana-suckers`: https://github.com/Bananapus/nana-suckers */
     uint8 internal constant MAP_SUCKER_TOKEN = 28; // Permission to call `BPSucker.mapToken`.
     uint8 internal constant DEPLOY_SUCKERS = 29; // Permission to call `BPSuckerRegistry.deploySuckersFor`.
-    uint8 internal constant SUCKER_SAFETY = 30; // Permission to call `BPSucker.enableEmergencyHatchFor` and `BPSucker.setDeprecation`.
+    uint8 internal constant SUCKER_SAFETY = 30; // Permission to call `BPSucker.enableEmergencyHatchFor` and
+        // `BPSucker.setDeprecation`.
 }
