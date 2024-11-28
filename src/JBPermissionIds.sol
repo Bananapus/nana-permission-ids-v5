@@ -11,7 +11,7 @@ library JBPermissionIds {
     /* Used by `nana-core`: https://github.com/Bananapus/nana-core */
     uint8 internal constant QUEUE_RULESETS = 2; // Permission to call `JBController.queueRulesetsOf` and
         // `JBController.launchRulesetsFor`.
-    uint8 internal constant REDEEM_TOKENS = 3; // Permission to call `JBMultiTerminal.redeemTokensOf`.
+    uint8 internal constant CASH_OUT_TOKENS = 3; // Permission to call `JBMultiTerminal.cashOutTokensOf`.
     uint8 internal constant SEND_PAYOUTS = 4; // Permission to call `JBMultiTerminal.sendPayoutsOf`.
     uint8 internal constant MIGRATE_TERMINAL = 5; // Permission to call `JBMultiTerminal.migrateBalanceOf`.
     uint8 internal constant SET_PROJECT_URI = 6; // Permission to call `JBController.setUriOf`.
